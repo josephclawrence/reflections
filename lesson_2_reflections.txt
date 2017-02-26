@@ -20,3 +20,6 @@ What is the result of merging two branches together? Why do we represent it in t
 the lines from each of the two versions of the files are combined according to the merge logic, to try and make the most meaningful combination
 the branches merge as per the diagram, because the branch into which another was merged becomes the new tip of that branch, and the old
 all commits from the histories of both are now subsumed under the merge target.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves time and effort, but might make mistakes and is not intelligent. Manual is the opposite.

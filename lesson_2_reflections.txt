@@ -12,3 +12,6 @@ only add files to the staging area that are logically grouped
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When you are working on a new feature, or potentially a new version of the software, but you don't want to change the main branch
+
+How do the diagrams help you visualize the branch structure?
+You can see which commits are part of each branch's history easily, and whether a particular commit might be lost if not committed to a newly created and checked out branch

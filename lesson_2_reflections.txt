@@ -15,3 +15,8 @@ When you are working on a new feature, or potentially a new version of the softw
 
 How do the diagrams help you visualize the branch structure?
 You can see which commits are part of each branch's history easily, and whether a particular commit might be lost if not committed to a newly created and checked out branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the lines from each of the two versions of the files are combined according to the merge logic, to try and make the most meaningful combination
+the branches merge as per the diagram, because the branch into which another was merged becomes the new tip of that branch, and the old
+all commits from the histories of both are now subsumed under the merge target.

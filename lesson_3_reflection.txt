@@ -4,3 +4,8 @@ If you want to keep a safe store of your codebase
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Other people could commit changes that you do not want to be a part of your local repo
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A clone is an exact copy of a repo, with all commit history. This is if you copy a remote to local, or a local to local.
+A fork is the same as a clone pretty much, except it is done from a Github repo to another Github repo, and maintains the record of authorship and attribution.
+Branches are within on repo, and represent different streams of commits that could be used for new feature developments and so on. They can be merge together at any stage.

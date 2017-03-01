@@ -13,3 +13,9 @@ Branches are within on repo, and represent different streams of commits that cou
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You can do things offline
 You can check the difference between your local copies and the remote copies, at least at the time of last fetch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+One would have to email back and forth and keep close tabs manually on what changes were being made to files
+a good plan would be needed, so that people only edit different files at a time.
+it would be easier to just get to work and keep going without always committing and doing all the admin
+it would be harder to resolve conflicts, check the status, and see all the history, especially with larger, more complex projects
